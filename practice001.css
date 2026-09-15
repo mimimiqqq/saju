@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Diphylleia&display=swap");
+
+:root {
+  --primary-navy: #2c4e78;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.the {
+  margin: 20px;
+  font-family: "Diphylleia", serif;
+}
+.middle {
+  color: var(--primary-navy);
+  display: inline-block;
+  border-radius: 20px 20px;
+  background: lightcyan;
+  border-color: lightslategray;
+  padding: 5px 5px 5px 5px;
+}
+.your {
+  font-family: "Diphylleia", serif;
+  font-size: 5cap;
+  padding-right: 20px;
+}
+.jungtong {
+  color: var(--primary-navy);
+}
+
+.round-box {
+  padding: 10px 10px;
+  border-radius: 30px 30px;
+  border: var(--primary-navy) 1px solid;
+  color: var(--primary-navy);
+  cursor: pointer;
+  display: inline-block;
+}
+.round-box:hover {
+  background-color: #2c4e78;
+  color: aliceblue;
+}
+
+.info-card {
+  flex: 1 1 280px;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border-radius: 20px;
+  border: 1px solid #dcdcdc;
+  box-shadow: 0 4px 12px rgba(0 0 0 /0.1);
+  text-align: center;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
