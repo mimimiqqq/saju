@@ -8,36 +8,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-.middle {
-  color: var(--primary-navy);
-  display: inline-block;
-  padding: 5px 5px;
-  border-radius: 20px;
-  background-color: rgb(219, 244, 250);
-  border-color: rgb(219, 244, 250);
-}
-.your {
-  font-family: "Diphylleia", serif;
-  font-size: 50px;
-  font-weight: bold;
-  padding-bottom: 30px;
-}
-.jungtong {
-  color: var(--primary-navy);
-  margin-bottom: 20px;
-}
-.round-box {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 999px;
-  border: 1px solid var(--primary-navy);
-  color: var(--primary-navy);
-  cursor: pointer;
-}
-.round-box:hover {
-  background-color: rgba(7, 55, 110, 0.808);
-  color: white;
-}
 header {
   font-family: "Bagel Fat One", system-ui;
   position: fixed;
@@ -49,13 +19,44 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.middle {
+  color: var(--primary-navy);
+  display: inline-block;
+  padding: 5px 5px 1px 100px;
+  border-radius: 20px;
+  background-color: rgb(219, 244, 250);
+  border-color: rgb(219, 244, 250);
+}
+.your {
+  font-family: "Diphylleia", serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px 30px 1px 100px;
+}
+.jungtong {
+  color: var(--primary-navy);
+  padding: 20px 30px 10px 100px;
+}
+.round-box {
+  display: inline-block;
+  padding: 10px 3px;
+  margin-left: 100px;
+  border-radius: 999px;
+  border: 1px solid var(--primary-navy);
+  color: var(--primary-navy);
+  cursor: pointer;
+}
+.round-box:hover {
+  background-color: rgba(7, 55, 110, 0.808);
+  color: white;
+}
+
 .what {
   font-size: 34px;
   font-family: "Diphylleia", serif;
-  text-align: center;
+  padding: 20px;
 }
 .jungtong1 {
-  text-align: center;
   color: #2c4e78;
   padding: 20px;
 }
@@ -121,4 +122,14 @@ header {
     flex: 1 1 100%;
     max-width: 100%;
   }
+}
+
+.birth-date {
+  font-family: "Diphylleia", serif;
+  font-size: 34px;
+  padding: 20px;
+}
+.birth-date2 {
+  color: #2c4e78;
+  padding: 20px;
 }
