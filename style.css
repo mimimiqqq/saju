@@ -17,4 +17,7 @@ header {
 }
 main {
   padding-top: 60px;
+  margin: auto;
+  width: 1480px;
+  background: pink;
 }
